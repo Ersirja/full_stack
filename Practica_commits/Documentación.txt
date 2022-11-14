@@ -1,0 +1,12 @@
+PASOS PARA SUBIR UN REPOSITORIO y HACER LOS COMMITS LOCALES:
+1 - Creamos cuenta en Github
+2 - Descargamos Git
+3 - Abrimos Git Bash
+4 - Vamos al directorio que queremos subir a la plataforma
+5 - Creamos un repositorio desde la plataforma github
+6 - Usamos el git remote add origin https://github.com/Ersirja/full_stack para añadir la dirección web para que git suba los archivos ahi
+7 - Usamos la comanda Git init para inicializar un repositorio de Git nuevo
+8 - Usamos git add. para llevar todos los archivos al Staging Area
+9 - Usamos git commit -m "nombre del commit"
+10 - git status para comprovar que todo se hay hecho correctamente
+11 - git push --set-upstream origin master para subirlo en el repositorio web
